@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0537377F1DDC09BD00C2F1CA /* NSArray+CustomMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0537377E1DDC09BD00C2F1CA /* NSArray+CustomMethod.m */; };
 		057C9A821DD8343F00E45D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C9A811DD8343F00E45D78 /* main.m */; };
 		057C9A851DD8343F00E45D78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C9A841DD8343F00E45D78 /* AppDelegate.m */; };
 		057C9A881DD8343F00E45D78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C9A871DD8343F00E45D78 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		057C9A901DD8343F00E45D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057C9A8E1DD8343F00E45D78 /* LaunchScreen.storyboard */; };
 		057C9A9B1DD8343F00E45D78 /* excelReverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C9A9A1DD8343F00E45D78 /* excelReverTests.m */; };
 		057C9AA61DD8343F00E45D78 /* excelReverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C9AA51DD8343F00E45D78 /* excelReverUITests.m */; };
+		05E01F401DD8368500D0DE53 /* poducrList.xls in Resources */ = {isa = PBXBuildFile; fileRef = 05E01F3F1DD8368500D0DE53 /* poducrList.xls */; };
+		05E01F421DD8417800D0DE53 /* poducrListcsv.csv in Resources */ = {isa = PBXBuildFile; fileRef = 05E01F411DD8417800D0DE53 /* poducrListcsv.csv */; };
+		05E01F441DD8456800D0DE53 /* poducrList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 05E01F431DD8456800D0DE53 /* poducrList.xlsx */; };
+		05E01F491DD84A8A00D0DE53 /* XBMProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E01F481DD84A8A00D0DE53 /* XBMProductModel.m */; };
+		05E01F511DD84DA200D0DE53 /* XBMCouponProCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E01F4F1DD84DA200D0DE53 /* XBMCouponProCell.m */; };
+		05E01F521DD84DA200D0DE53 /* XBMCouponProCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05E01F501DD84DA200D0DE53 /* XBMCouponProCell.xib */; };
+		05E01F551DD8509F00D0DE53 /* XBMProductInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E01F541DD8509F00D0DE53 /* XBMProductInfoController.m */; };
+		D9499AFCF39968F065DA4C9A /* libPods-excelRever.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 895A624EFF66F3EB75533C7D /* libPods-excelRever.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0537377D1DDC09BD00C2F1CA /* NSArray+CustomMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CustomMethod.h"; sourceTree = "<group>"; };
+		0537377E1DDC09BD00C2F1CA /* NSArray+CustomMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CustomMethod.m"; sourceTree = "<group>"; };
 		057C9A7D1DD8343F00E45D78 /* excelRever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = excelRever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		057C9A811DD8343F00E45D78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		057C9A831DD8343F00E45D78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,19 @@
 		057C9AA11DD8343F00E45D78 /* excelReverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = excelReverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		057C9AA51DD8343F00E45D78 /* excelReverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = excelReverUITests.m; sourceTree = "<group>"; };
 		057C9AA71DD8343F00E45D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E01F3F1DD8368500D0DE53 /* poducrList.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = poducrList.xls; sourceTree = "<group>"; };
+		05E01F411DD8417800D0DE53 /* poducrListcsv.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poducrListcsv.csv; sourceTree = "<group>"; };
+		05E01F431DD8456800D0DE53 /* poducrList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = poducrList.xlsx; sourceTree = "<group>"; };
+		05E01F471DD84A8A00D0DE53 /* XBMProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMProductModel.h; sourceTree = "<group>"; };
+		05E01F481DD84A8A00D0DE53 /* XBMProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBMProductModel.m; sourceTree = "<group>"; };
+		05E01F4E1DD84DA200D0DE53 /* XBMCouponProCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMCouponProCell.h; sourceTree = "<group>"; };
+		05E01F4F1DD84DA200D0DE53 /* XBMCouponProCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBMCouponProCell.m; sourceTree = "<group>"; };
+		05E01F501DD84DA200D0DE53 /* XBMCouponProCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBMCouponProCell.xib; sourceTree = "<group>"; };
+		05E01F531DD8509F00D0DE53 /* XBMProductInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMProductInfoController.h; sourceTree = "<group>"; };
+		05E01F541DD8509F00D0DE53 /* XBMProductInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBMProductInfoController.m; sourceTree = "<group>"; };
+		6348ED20DFB0BD63684A10B3 /* Pods-excelRever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-excelRever.debug.xcconfig"; path = "Pods/Target Support Files/Pods-excelRever/Pods-excelRever.debug.xcconfig"; sourceTree = "<group>"; };
+		895A624EFF66F3EB75533C7D /* libPods-excelRever.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-excelRever.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9822D22411DA7757EA6A7D /* Pods-excelRever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-excelRever.release.xcconfig"; path = "Pods/Target Support Files/Pods-excelRever/Pods-excelRever.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9499AFCF39968F065DA4C9A /* libPods-excelRever.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0537377C1DDC097800C2F1CA /* NSArrayCatgory */ = {
+			isa = PBXGroup;
+			children = (
+				0537377D1DDC09BD00C2F1CA /* NSArray+CustomMethod.h */,
+				0537377E1DDC09BD00C2F1CA /* NSArray+CustomMethod.m */,
+			);
+			name = NSArrayCatgory;
+			sourceTree = "<group>";
+		};
 		057C9A741DD8343F00E45D78 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				057C9A991DD8343F00E45D78 /* excelReverTests */,
 				057C9AA41DD8343F00E45D78 /* excelReverUITests */,
 				057C9A7E1DD8343F00E45D78 /* Products */,
+				23BA870B5EFEB48A4B180956 /* Pods */,
+				F1BB7F82E0D21CA1F905E645 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +137,10 @@
 		057C9A7F1DD8343F00E45D78 /* excelRever */ = {
 			isa = PBXGroup;
 			children = (
+				05E01F451DD84A5100D0DE53 /* Class */,
+				05E01F431DD8456800D0DE53 /* poducrList.xlsx */,
+				05E01F411DD8417800D0DE53 /* poducrListcsv.csv */,
+				05E01F3F1DD8368500D0DE53 /* poducrList.xls */,
 				057C9A831DD8343F00E45D78 /* AppDelegate.h */,
 				057C9A841DD8343F00E45D78 /* AppDelegate.m */,
 				057C9A861DD8343F00E45D78 /* ViewController.h */,
@@ -140,6 +180,70 @@
 			path = excelReverUITests;
 			sourceTree = "<group>";
 		};
+		05E01F451DD84A5100D0DE53 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0537377C1DDC097800C2F1CA /* NSArrayCatgory */,
+				05E01F461DD84A6600D0DE53 /* CouponPro */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		05E01F461DD84A6600D0DE53 /* CouponPro */ = {
+			isa = PBXGroup;
+			children = (
+				05E01F4C1DD84BC600D0DE53 /* Controller */,
+				05E01F4B1DD84BBC00D0DE53 /* View */,
+				05E01F4A1DD84BAF00D0DE53 /* Model */,
+			);
+			name = CouponPro;
+			sourceTree = "<group>";
+		};
+		05E01F4A1DD84BAF00D0DE53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05E01F471DD84A8A00D0DE53 /* XBMProductModel.h */,
+				05E01F481DD84A8A00D0DE53 /* XBMProductModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05E01F4B1DD84BBC00D0DE53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05E01F4E1DD84DA200D0DE53 /* XBMCouponProCell.h */,
+				05E01F4F1DD84DA200D0DE53 /* XBMCouponProCell.m */,
+				05E01F501DD84DA200D0DE53 /* XBMCouponProCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05E01F4C1DD84BC600D0DE53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05E01F531DD8509F00D0DE53 /* XBMProductInfoController.h */,
+				05E01F541DD8509F00D0DE53 /* XBMProductInfoController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		23BA870B5EFEB48A4B180956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6348ED20DFB0BD63684A10B3 /* Pods-excelRever.debug.xcconfig */,
+				FF9822D22411DA7757EA6A7D /* Pods-excelRever.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1BB7F82E0D21CA1F905E645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				895A624EFF66F3EB75533C7D /* libPods-excelRever.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 057C9AAA1DD8343F00E45D78 /* Build configuration list for PBXNativeTarget "excelRever" */;
 			buildPhases = (
+				6F00DDD5165744041ED3ED95 /* [CP] Check Pods Manifest.lock */,
 				057C9A791DD8343F00E45D78 /* Sources */,
 				057C9A7A1DD8343F00E45D78 /* Frameworks */,
 				057C9A7B1DD8343F00E45D78 /* Resources */,
+				05A26AE9109DD47141A7D5FB /* [CP] Embed Pods Frameworks */,
+				D8CDFE4772C50D636D174E99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +314,7 @@
 				TargetAttributes = {
 					057C9A7C1DD8343F00E45D78 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PRLC4HQG59;
 						ProvisioningStyle = Automatic;
 					};
 					057C9A951DD8343F00E45D78 = {
@@ -246,7 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E01F421DD8417800D0DE53 /* poducrListcsv.csv in Resources */,
+				05E01F401DD8368500D0DE53 /* poducrList.xls in Resources */,
 				057C9A901DD8343F00E45D78 /* LaunchScreen.storyboard in Resources */,
+				05E01F521DD84DA200D0DE53 /* XBMCouponProCell.xib in Resources */,
+				05E01F441DD8456800D0DE53 /* poducrList.xlsx in Resources */,
 				057C9A8D1DD8343F00E45D78 /* Assets.xcassets in Resources */,
 				057C9A8B1DD8343F00E45D78 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +380,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A26AE9109DD47141A7D5FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-excelRever/Pods-excelRever-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F00DDD5165744041ED3ED95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CDFE4772C50D636D174E99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-excelRever/Pods-excelRever-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		057C9A791DD8343F00E45D78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0537377F1DDC09BD00C2F1CA /* NSArray+CustomMethod.m in Sources */,
 				057C9A881DD8343F00E45D78 /* ViewController.m in Sources */,
+				05E01F491DD84A8A00D0DE53 /* XBMProductModel.m in Sources */,
 				057C9A851DD8343F00E45D78 /* AppDelegate.m in Sources */,
+				05E01F551DD8509F00D0DE53 /* XBMProductInfoController.m in Sources */,
 				057C9A821DD8343F00E45D78 /* main.m in Sources */,
+				05E01F511DD84DA200D0DE53 /* XBMCouponProCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -412,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,22 +586,28 @@
 		};
 		057C9AAB1DD8343F00E45D78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6348ED20DFB0BD63684A10B3 /* Pods-excelRever.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PRLC4HQG59;
 				INFOPLIST_FILE = excelRever/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xu.excelRever;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.youhuiquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		057C9AAC1DD8343F00E45D78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9822D22411DA7757EA6A7D /* Pods-excelRever.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PRLC4HQG59;
 				INFOPLIST_FILE = excelRever/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xu.excelRever;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.youhuiquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +677,7 @@
 				057C9AAC1DD8343F00E45D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		057C9AAD1DD8343F00E45D78 /* Build configuration list for PBXNativeTarget "excelReverTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +686,7 @@
 				057C9AAF1DD8343F00E45D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		057C9AB01DD8343F00E45D78 /* Build configuration list for PBXNativeTarget "excelReverUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +695,7 @@
 				057C9AB21DD8343F00E45D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
